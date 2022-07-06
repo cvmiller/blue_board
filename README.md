@@ -53,7 +53,7 @@ The Blue Board has the following components:
 * 5 NeoPixels 
 * Project board with 2 General Purpose Input/Output (GPIO) pre-wired
 
-![Blue Board](http://www.makikiweb.com/Pi/Art/pi_pico_neopixels_800_2.jpg "Blue Board")
+![Blue Board](./Art/pi_pico_neopixels_800_2.jpg "Blue Board")
 
 
 #### Pi Pico
@@ -84,11 +84,11 @@ Some hookup wire
 
 A logical wiring diagram of the blue board with the project board attach looks like this:
 
-![Blue Board](http://www.makikiweb.com/Pi/Art/pi_pico_fritz_board_v2_800.jpg "Project Board")
+![Blue Board](./Art/pi_pico_fritz_board_v2_800.jpg "Project Board")
 
 Shown for clarity, each row of five pin sockets in the wireless breadboard are connected:
 
-![Back of Project Board](http://www.makikiweb.com/Pi/Art/pi_pico_project_board_back_300.jpg)
+![Back of Project Board](./Art/pi_pico_project_board_back_300.jpg)
 
 ### Getting Circuit Python
 
