@@ -133,9 +133,7 @@ Python is the world's most popular computer programming language. There are hund
 <br>
 
 29 June 2022<br>
-Updated 5 July 2022<br>
-Draft 5 - updated with Circuit Python library info<br>
-Draft 6 - placed on git hub (and revision control)
+Last updated 7 July 2022<br>
 
 </small>
 
