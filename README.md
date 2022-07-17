@@ -9,7 +9,7 @@
 
 A sidebar about LEDs is available [here](./Sidebars/LEDsidebar.md)
 
-#### by Craig Miller
+#### by [Victoria Pi Makers](http://vicpimakers.ca) 
 
 Learning Python can be fun. Learning Python on the Raspberry Pi Pico where lights flash, change colour and appear to flow back and forth is even more **fun**
 
