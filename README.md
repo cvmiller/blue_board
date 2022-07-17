@@ -7,7 +7,7 @@
 </td>
 </tr></table>
 
-
+A sidebar about LEDs is available [here](./Sidebars/LEDsidebar.md)
 
 #### by Craig Miller
 
@@ -75,7 +75,7 @@ The Project board is pre-wired to two (2) GPIO pins on the Pi Pico to allow one 
 To create your own projects, the following parts are also supplied:
 
 * An LED that emits white light.  The negative terminal is marked with a black line on the side of the LED
-* A 100 ohm current limiting resistor to prevent burning out the LED
+* A 100 ohm current limiting resistor to prevent burning out the LED &emsp;&emsp;&emsp;&emsp;&emsp;     *_see calcs in LED sidebar, this should be higher R_*
 * A momentary switch button
 * A light sensitive resistor
 * A 10k ohm resistor for making a voltage divider for the analog inputs
