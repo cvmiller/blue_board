@@ -1,7 +1,7 @@
 ## Python and the Pi Pico Blue Board
 
 <table align="right">
-<tr><td><img alt="Fun!" src="./Art/blue_board_rainbow_300.jpg" align="right" height="200" width="220">
+<tr><td><img alt="Fun!" src="./Art/blue_board_rainbow_300.jpg" height="200" width="220">
 <p>
 <center><b>Python on the Pi Pico</b></center>
 </td>
