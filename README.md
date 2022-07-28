@@ -74,8 +74,7 @@ The Project board is pre-wired to two (2) GPIO pins on the Pi Pico to allow one 
 To create your own projects, the following parts are also supplied:
 
 
-* An LED that emits white light.  The negative terminal is marked with a black line on the side of the LED
-* A 100 ohm current limiting resistor to prevent burning out the LED **see calcs in LED sidebar, this should be higher R**
+* An LED that emits white light, soldered to a 1000 ohm current limiting resistor.
 * A momentary switch button
 * A light sensitive resistor
 * A 10k ohm resistor for making a voltage divider for the analog inputs
@@ -93,11 +92,20 @@ Some hookup wire
 
 A logical wiring diagram of the blue board with the project board attach looks like this:
 
-![Blue Board](./Art/pi_pico_fritz_board_v2_800.jpg "Project Board")
+![Blue Board](./Art/FritzBlueBoard.jpg "Project Board")
 
 Shown for clarity, each row of five pin sockets in the wireless breadboard are connected:
 
 ![Back of Project Board](./Art/pi_pico_project_board_back_300.jpg)
+
+
+#### Installing the LED/resistor combo
+
+The first thing to do is check out the hardware.  Plug one lead of the LED/resistor combo into the ground line of the circuit board (the first line), and the other into the 3.3V line (the third line)
+Which way?  The resistor end should go to the ground side, and the LED should light.  If you have it backwards no harm will be done, but the LED won't light.  
+If the LED won't light either way round then there are other problems.
+Once the hardware has been checked, move the positive wire from the 3.3V line to the ADC2 line (the fifth line).  This is the line you will be controlling with a python program.
+![Testing the LED](./Art/FritzTestLEDcircuit.jpg "Test Setup")![Running the LED](./Art/FritzRunLEDcircuit.jpg "Run Setup")
 
 ### Getting Circuit Python
 
