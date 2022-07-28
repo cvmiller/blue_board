@@ -101,11 +101,14 @@ Shown for clarity, each row of five pin sockets in the wireless breadboard are c
 
 #### Installing the LED/resistor combo
 
-The first thing to do is check out the hardware.  Plug one lead of the LED/resistor combo into the ground line of the circuit board (the first line), and the other into the 3.3V line (the third line)
+The first thing to do is check out the hardware.  Plug one lead of the LED/resistor combo into the ground line of the circuit board (the first row of holes), and the other into the 3.3V line (the third row)
 Which way?  The resistor end should go to the ground side, and the LED should light.  If you have it backwards no harm will be done, but the LED won't light.  
+
 If the LED won't light either way round then there are other problems.
-Once the hardware has been checked, move the positive wire from the 3.3V line to the ADC2 line (the fifth line).  This is the line you will be controlling with a python program.
-![Testing the LED](./Art/FritzTestLEDcircuit.jpg "Test Setup")![Running the LED](./Art/FritzRunLEDcircuit.jpg "Run Setup")
+Once the hardware has been checked, move the positive wire from the 3.3V row to the ADC2 line (the fifth row).  This is the row you will be controlling with a python program.
+
+![Testing the LED](./Art/FritzTestLEDcircuit.jpg "Test Setup")
+![Running the LED](./Art/FritzRunLEDcircuit.jpg "Run Setup")
 
 ### Getting Circuit Python
 
@@ -152,7 +155,7 @@ Python is the world's most popular computer programming language. There are hund
 <br>
 
 29 June 2022<br>
-Last updated 17 July 2022<br>
+
 
 </small>
 
